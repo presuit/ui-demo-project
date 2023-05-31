@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+
 export default function StripeBox() {
   return (
     <div className="w-full min-h-screen bg-zinc-900 flex justify-center items-center p-5 gap-5">
@@ -13,3 +15,7 @@ export default function StripeBox() {
     </div>
   );
 }
+
+export const metadata: Metadata = {
+  title: "Stripe-Box",
+};
