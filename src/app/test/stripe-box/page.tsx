@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export default function StripeBox() {
   return (
-    <div className="w-full min-h-screen bg-zinc-900 flex justify-center items-center p-5 gap-5">
+    <div className="w-full min-h-screen flex justify-center items-center p-5 gap-5">
       <div className="w-96 aspect-[10/16] border-[3px] border-blue-500/80 rounded-lg bg-blue-500/20 overflow-hidden relative shadow-2xl shadow-blue-500/60">
         <div className="stripe-image" />
         <div className="stripe-gradient"></div>
