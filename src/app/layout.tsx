@@ -22,6 +22,7 @@ export default function RootLayout({
           <ul className="p-3 px-5 font-medium flex items-center gap-5">
             <GNBLink href="/" title="Home" />
             <GNBLink href="/test/stripe-box" title="Stripe Box" />
+            <GNBLink href="/test/animate-tab" title="Animate Tab" />
           </ul>
         </header>
         {children}
